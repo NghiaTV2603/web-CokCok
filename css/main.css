@@ -1,0 +1,30 @@
+
+@import url(../css/base/button.css);
+@import url(../css/base/input.css);
+
+body{
+    font-family: MISA Fonts regular;
+    font-size: 13px ;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: MISA Fonts regular;
+    src: url(../assets/font/GoogleSans-Regular.otf);
+}
+
+@font-face {
+    font-family: MISA Fonts bold;
+    src: url(../assets/font/GoogleSans-Bold.otf);
+}
+
+@font-face {
+    font-family: MISA Fonts Italic;
+    src: url(../assets/font/GoogleSans-Italic.otf);
+}
+
+.n-row{
+    display: flex;
+    width: 100%;
+    margin-top: 8px;
+}

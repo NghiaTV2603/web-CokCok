@@ -1,0 +1,29 @@
+
+.n-button{
+    height: 40px;
+    background-color: #019160;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 0 24px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    min-width: 100px;
+
+}
+
+.n-button:hover{
+    background-color: #2fbe8e;
+}
+
+.n-button:active{
+    background-color: #01b075;
+}
+
+.n-button-icon{
+    background-image: url(/assets/icon/add.png);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 16px center;
+    padding-left: 40px;
+}
